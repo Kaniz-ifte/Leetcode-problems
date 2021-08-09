@@ -1,3 +1,44 @@
+<h2>What is HTTP?
+<h6>The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers.
+
+HTTP works as a request-response protocol between a client and server.
+
+Example: A client (browser) sends an HTTP request to the server; then the server returns a response to the client. The response contains status information about the request and may also contain the requested content.
+ 
+HTTP Methods
+
+    1. GET
+    2. POST
+    3. PUT
+    4. HEAD
+    5. DELETE
+    6. PATCH
+    7. OPTIONS
+ 
+The two most common HTTP methods are: GET and POST. 
+ 
+<h3>The GET Method
+<h6>GET is used to request data from a specified resource.
+
+GET is one of the most common HTTP methods. 
+ 
+   1. GET requests can be cached
+   2. GET requests remain in the browser history
+   3. GET requests can be bookmarked
+   4. GET requests should never be used when dealing with sensitive data
+   5. GET requests have length restrictions
+   6. GET requests are only used to request data (not modify)
+   7. Data is visible to everyone in the URL
+
+<h3>The POST Method
+<h6>POST is used to send data to a server to create/update a resource.
+ 
+   1. POST requests are never cached
+   2. POST requests do not remain in the browser history
+   3. POST requests cannot be bookmarked
+   4. POST requests have no restrictions on data length
+   5. Data is not displayed in the URL
+ 
 ><h3> MVC framework
  <h6> M-> Model , 
       v-> View ,
