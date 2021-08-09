@@ -79,3 +79,6 @@ In Laravel, all of the controllers stored in the Controllers folder, located in 
 <h6>Very often with a Laravel application you will have some type of CRUD (Create, Read, Update, Delete). This, of course requires HTML forms and submitting data from the front-end to the back end controllers. Laravel uses CSRF tokens to add another layer of security on top of your web application. If the CSRF token is missing during form submission or likewise, Laravel will complain about it.
 
 > For more details https://www.codewall.co.uk/how-to-use-csrf-tokens-with-laravel/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-use-csrf-tokens-with-laravel 
+
+<h2>Insert HTML Form data into database using Laravel
+><h6> Visit https://demonuts.com/insert-form-data-into-database-using-laravel/
