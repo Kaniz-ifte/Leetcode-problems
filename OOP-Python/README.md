@@ -304,6 +304,64 @@ Object mutability is one of the characteristics that makes Python a dynamically 
 <h6>https://www.analyticsvidhya.com/blog/2020/09/object-oriented-programming/
 
   https://www.javatpoint.com/abstraction-in-python
+
+
+  ## 🧠 Understanding `public static void main(String[] args)`
+
+This is the **entry point** of any Java program. Here's what each part means:
+
+---
+
+### 🔍 `public`
+- Makes the method **accessible from anywhere**.
+- Required by the JVM to start the program.
+
+---
+
+### 🔧 `static`
+- Allows the method to run **without creating an object** of the class.
+- JVM can directly call it when the program starts.
+
+---
+
+### 📭 `void`
+- Means this method **does not return anything**.
+
+---
+
+### 🧵 `main`
+- The **name** of the method that the JVM looks for to begin program execution.
+- Must always be named `main`.
+
+---
+
+### 🧺 `String[] args`
+- Accepts **command-line arguments**.
+- It's an array of strings.
+- Example: if you run the program with `java MyApp hello world`, then:
+  - `args[0] = "hello"`
+  - `args[1] = "world"`
+
+---
+
+### ✅ Full Meaning
+
+> "A public method that can be run without creating an object, doesn't return anything, and takes an array of strings as input — this is where the program starts."
+
+---
+
+### 🧪 Example
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+
+### Output:
+Hello, world!
+
   
   https://www.mygreatlearning.com/blog/understanding-mutable-and-immutable-in-python/#1a
   
